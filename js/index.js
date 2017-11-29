@@ -1,0 +1,20 @@
+$(document).ready(function(){
+	//shop-btn1
+	$('#shop-btn1').mouseover(function(){
+		$('#shop-btn1').toggleClass('active',true);
+		$('#shop-btn2').toggleClass('active',false);
+		$('#shopbg-part').attr('src','img/shop-p1.png');
+		$('#shop-img').attr('src','img/shop1.jpg');
+		$('#shoptxt1').removeAttr('hidden');
+		$('#shoptxt2').attr('hidden','true');
+	});
+	//shop-btn2
+	$('#shop-btn2').mouseover(function(){
+		$('#shop-btn2').toggleClass('active',true);
+		$('#shop-btn1').toggleClass('active',false);
+		$('#shopbg-part').attr('src','img/shop-p2.png');
+		$('#shop-img').attr('src','img/shop2.jpg');
+		$('#shoptxt2').removeAttr('hidden');
+		$('#shoptxt1').attr('hidden','true');
+	});
+});

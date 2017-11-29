@@ -1,0 +1,21 @@
+body,html {
+	margin:0;
+	padding:0;
+}
+.tujian-banner {
+	position: relative;
+	top:88px;
+	width:100%;height:280px;
+	background: url(../img/tujian-banner.png) no-repeat;
+}
+.banner-b{
+	position: relative;
+	top:88px;
+	height:62px;
+	vertical-align: middle;
+	line-height: 62px;
+}
+.banner-b a{
+	font-size: 14px;
+	text-decoration: underline;
+}
